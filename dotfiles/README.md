@@ -1,0 +1,4 @@
+# DOTFILES
+- Bash
+- Git
+- VIM
