@@ -19,12 +19,24 @@
   # environment.
   home.packages = with pkgs; [
     # Tools
-    bat  # Better cat
-    eza  # Better ls
-    croc # Send files between computers securely
+    bat           # cat replacement
+    eza           # ls replacement
+    croc          # Send files between computers securely
+    doxygen       # Generate documentation
+    texliveFull   # Latex small package
+    ghostscript   # Needed for doxygen tex support
+
+    # Compilers
+    ninja
 
     # Syntax linters
     nixpkgs-fmt
+
+    # Debuggers
+    gdb  # C/CPP
+
+    # CPP
+    abseil-cpp  # Google add-ons to std lib
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the

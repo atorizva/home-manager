@@ -115,3 +115,11 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Add vcpkg
+export VCPKG_ROOT=/home/polimata/Descargas/vcpkg
+export PATH=$PATH:$VCPKG_ROOT
+
+# GPG key
+export GPG_TTY=$(tty)
+
