@@ -20,6 +20,12 @@
   # environment.
   home.packages = with pkgs; [
 
+    # Languages
+    jdk25  # For Scala purposes
+
+    # Languages servers
+    metals  # Scala
+
     # Package managers
     uv
     coursier
