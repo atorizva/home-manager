@@ -1,4 +1,4 @@
-{ config, lib, pkgs, ... }:
+{ config, pkgs, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -21,7 +21,10 @@
   home.packages = with pkgs; [
 
     # Languages
-    jdk25  # For Scala purposes
+    jdk25 # For Scala purposes
+
+    # Language servers
+    nil
 
     # Package managers
     uv
@@ -31,7 +34,6 @@
     direnv
     eza
     bat
-
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the

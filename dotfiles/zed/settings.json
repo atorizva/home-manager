@@ -3,11 +3,26 @@
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "auto_install_extensions": {
-    "kanso": true
+    "kanso": true,
+    "nix": true
   },
   "theme": {
     "mode": "system",
     "light": "Kanso Pearl (Blurred)",
     "dark": "Kanso Zen (Blurred)"
+  },
+  "languages": {
+    "Nix": {
+      "language_servers": ["nil", "!nixd"]
+    }
+  },
+  "lsp": {
+    "nil": {
+      "settings": {
+        "diagnostics": {
+          "ignored": ["unused_binding"]
+        }
+      }
+    }
   }
 }
