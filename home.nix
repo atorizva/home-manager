@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, lib, pkgs, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -6,6 +6,15 @@
   home.username = "atorizva";
   home.homeDirectory = "/home/atorizva";
   home.stateVersion = "25.05"; # Please read the comment before changing.
+
+  nixGL.packages = import <nixgl> { inherit pkgs; };
+  nixGL.defaultWrapper = "mesa";
+  nixGL.installScripts = [ "mesa" ];
+
+  programs.alacritty = {
+    enable = true;
+    package = config.lib.nixGL.wrap pkgs.alacritty;
+  };
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
