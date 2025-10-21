@@ -5,7 +5,8 @@
   "buffer_font_size": 16,
   "auto_install_extensions": {
     "kanso": true,
-    "nix": true
+    "nix": true,
+    "toml": true
   },
   "theme": {
     "mode": "system",
