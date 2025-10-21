@@ -7,6 +7,9 @@
   home.homeDirectory = "/home/atorizva";
   home.stateVersion = "25.05"; # Please read the comment before changing.
 
+  # Enable font management
+  fonts.fontconfig.enable = true;
+
   nixGL.packages = import <nixgl> { inherit pkgs; };
   nixGL.defaultWrapper = "mesa";
   nixGL.installScripts = [ "mesa" ];
@@ -35,11 +38,8 @@
     eza
     bat
 
-    # # It is sometimes useful to fine-tune packages, for example, by applying
-    # # overrides. You can do that directly here, just don't forget the
-    # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
-    # # fonts?
-    # (pkgs.nerdfonts.override { fonts = [ "FantasqueSansMono" ]; })
+    # Fonts
+    nerd-fonts.iosevka
 
     # # You can also create simple shell scripts directly inside your
     # # configuration. For example, this adds a command 'my-hello' to your
