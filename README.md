@@ -15,6 +15,11 @@ Simple home-manager configuration and dotfiles.
 - eza
 - bat
 
+# Shell
+
+- zsh
+- starship
+
 ## Terminal emulator
 
 - Alacritty
@@ -51,3 +56,6 @@ git clone
 ```bash
 home-manager switch
 ```
+
+> [!IMPORTANT]
+> To set ZSH as default shell you must add it first to `/etc/shells`.
