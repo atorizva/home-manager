@@ -1,9 +1,40 @@
-# home-manager
-Es una herramienta que gestiona múltiples aspectos de nuestro sistema:
-1. Paths,
-2. variables del sistema,
-3. paquetes instalados y su configuración (¡dotfiles!)
-4. aliases y
-5. scripts.
+# Dotfiles
 
-Cada actualización crea una nueva *generación* sin eliminar la anterior, lo que permite hacer *rollbacks* y regresar a un estado previo de nuestro sistema (útil si, como yo, tiendes a romperlo). 
+Simple home-manager configuration and dotfiles.
+
+## Packages
+
+TODO
+
+## Instructions
+
+1. Install Nix
+
+```bash
+sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install) --daemon
+```
+
+2. Add home-manager channel
+
+```bash
+nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
+nix-channel --update
+```
+
+3. Install home-manager
+
+```bash
+nix-shell '<home-manager>' -A install
+```
+
+4. Clone repository
+
+```bash
+git clone
+```
+
+5. Create new home-manager generation
+
+```bash
+home-manager switch
+```
