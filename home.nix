@@ -19,12 +19,6 @@
     package = config.lib.nixGL.wrap pkgs.alacritty;
   };
 
-  programs.git = {
-    enable = true;
-    userEmail = "60415206+atorizva@users.noreply.github.com";
-    userName = "atorizva";
-  };
-
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = with pkgs; [
@@ -48,6 +42,7 @@
     eza
     bat
     act # Run GH actions locally, docker must be installed manually atm
+    git
 
     # Fonts
     nerd-fonts.iosevka
@@ -68,6 +63,8 @@
     ".config/starship.toml".source = dotfiles/starship/starship.toml;
     # Zed
     ".config/zed/settings.json".source = dotfiles/zed/settings.json;
+    # Git
+    ".gitconfig".source = dotfiles/git/.gitconfig;
   };
 
   # Home Manager can also manage your environment variables through

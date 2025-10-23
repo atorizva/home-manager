@@ -1,5 +1,6 @@
-[init]
-	defaultBranch = main
 [user]
-	email = "alfonso.toriz@protonmail.com"
-	name = "atorizva"
+    name = Alfonso Toriz Vazquez
+    email = 60415206+atorizva@users.noreply.github.com
+    username = atorizva
+[init]
+    defaultBranch = main
