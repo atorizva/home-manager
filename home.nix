@@ -19,6 +19,12 @@
     package = config.lib.nixGL.wrap pkgs.alacritty;
   };
 
+  programs.git = {
+    enable = true;
+    userEmail = "60415206+atorizva@users.noreply.github.com";
+    userName = "atorizva";
+  };
+
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = with pkgs; [
