@@ -4,7 +4,20 @@ Simple home-manager configuration and dotfiles.
 
 ## Packages
 
-TODO
+### Package managers
+
+- uv
+- coursier
+
+### Utils
+
+- direnv
+- eza
+- bat
+
+## Terminal emulator
+
+- Alacritty
 
 ## Instructions
 
