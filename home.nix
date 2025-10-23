@@ -47,6 +47,7 @@
     direnv
     eza
     bat
+    act # Run GH actions locally, docker must be installed manually atm
 
     # Fonts
     nerd-fonts.iosevka
