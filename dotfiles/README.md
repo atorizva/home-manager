@@ -1,4 +1,5 @@
 # DOTFILES
-- Bash
+- zsh
+- Starship
 - Git
-- VIM
+- Zed

@@ -14,6 +14,8 @@ Simple home-manager configuration and dotfiles.
 - direnv
 - eza
 - bat
+- act
+- git
 
 # Shell
 
