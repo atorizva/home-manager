@@ -24,6 +24,7 @@
 
     # Languages
     jdk25 # For Scala purposes, coursier has trouble installing it on its own for some reason
+    typst # Latex alternative!
 
     # Language servers
     nil # nix

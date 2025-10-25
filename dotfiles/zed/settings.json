@@ -8,7 +8,8 @@
     "kanso": true,
     "nix": true,
     "toml": true,
-    "scala": true
+    "scala": true,
+    "tpyst": true
   },
   "theme": {
     "mode": "system",
