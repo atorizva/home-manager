@@ -57,6 +57,8 @@
     ".config/zed/settings.json".source = dotfiles/zed/settings.json;
     # Git
     ".gitconfig".source = dotfiles/git/.gitconfig;
+    # Alacritty
+    ".alacritty.toml".source = dotfiles/alacritty/alacritty.toml;
   };
 
   home.sessionVariables = {

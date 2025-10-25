@@ -1,4 +1,5 @@
 # DOTFILES
+- Alacritty
 - zsh
 - Starship
 - Git
