@@ -23,14 +23,14 @@
   home.packages = with pkgs; [
 
     # Languages
-    jdk25 # For Scala purposes
+    jdk25 # For Scala purposes, coursier has trouble installing it on its own for some reason
 
     # Language servers
-    nil
+    nil # nix
 
     # Package managers
-    uv
-    coursier
+    uv # Python
+    coursier # Scala
 
     # Shell
     zsh
