@@ -7,7 +7,8 @@
   "auto_install_extensions": {
     "kanso": true,
     "nix": true,
-    "toml": true
+    "toml": true,
+    "scala": true
   },
   "theme": {
     "mode": "system",
