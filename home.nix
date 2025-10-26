@@ -38,6 +38,7 @@
     starship # prompt config
 
     # Utils
+    tmux
     direnv
     eza
     bat
