@@ -4,6 +4,8 @@
   "ui_font_size": 17,
   "buffer_font_size": 16,
   "relative_line_numbers": true,
+  "preferred_line_length": 80,
+  "soft_wrap": "preferred_line_length",
   "auto_install_extensions": {
     "kanso": true,
     "nix": true,
