@@ -8,6 +8,9 @@
 
   home.packages = with pkgs; [
 
+    # Editor
+    helix
+
     # Language servers
     nil # nix
 
@@ -38,7 +41,7 @@
   };
 
   home.sessionVariables = {
-    EDITOR = "vi";
+    EDITOR = "hx";
   };
 
   programs.home-manager.enable = true;
