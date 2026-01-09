@@ -13,7 +13,7 @@
 
     # Shell
     zsh
-    starship # prompt config
+    starship
 
     # Utils
     tmux
@@ -28,8 +28,9 @@
   # Dotfiles
   home.file = {
     # ZSH + Starship
+    ".config/starship.toml".source = dotfiles/starship/starship.toml; 
+    ".zprofile".source = dotfiles/zsh/.zprofile;
     ".zshrc".source = dotfiles/zsh/.zshrc;
-    ".config/starship.toml".source = dotfiles/starship/starship.toml;
     # Git
     ".gitconfig".source = dotfiles/git/.gitconfig;
     # Alacritty
