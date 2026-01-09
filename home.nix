@@ -19,6 +19,7 @@
     starship
 
     # Utils
+    keychain  # SSH keys management
     tmux
     direnv
     eza
