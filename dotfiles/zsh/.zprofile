@@ -11,7 +11,14 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-if [ -e /home/atorizva/.nix-profile/etc/profile.d/nix.sh ]; then . /home/atorizva/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+if [ -e /home/atorizva/.nix-profile/etc/profile.d/nix.sh ]; then
+    . /home/atorizva/.nix-profile/etc/profile.d/nix.sh;
+fi # added by Nix installer
+
+# Load Home Manager session variables
+if [ -e "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh" ]; then
+  . "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
+fi
 
 . "$HOME/.local/bin/env"
 
