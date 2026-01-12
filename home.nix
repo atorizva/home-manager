@@ -40,6 +40,8 @@
     ".gitconfig".source = dotfiles/git/.gitconfig;
     # Alacritty
     ".alacritty.toml".source = dotfiles/alacritty/alacritty.toml;
+    # Tmux
+    ".tmux.conf".source = dotfiles/tmux/.tmux.conf;
   };
 
   home.sessionVariables = {
