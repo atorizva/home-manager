@@ -1,0 +1,31 @@
+theme = "base16_transparent"
+
+[editor]
+line-number = "relative"
+mouse = false
+completion-replace = true
+trim-trailing-whitespace = true
+insert-final-newline = true
+end-of-line-diagnostics = "hint"
+
+[editor.statusline]
+right = ["version-control", "position"]
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.auto-save]
+after-delay.enable = true
+after-delay.timeout = 10000
+
+[editor.soft-wrap]
+enable = true
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+

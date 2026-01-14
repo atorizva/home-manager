@@ -42,6 +42,8 @@
     ".alacritty.toml".source = dotfiles/alacritty/alacritty.toml;
     # Tmux
     ".tmux.conf".source = dotfiles/tmux/.tmux.conf;
+    # Helix
+    ".config/helix/config.toml".source = dotfiles/helix/config.toml;
   };
 
   home.sessionVariables = {
