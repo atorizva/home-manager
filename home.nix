@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 
 {
   # Config
@@ -33,7 +33,7 @@
   # Dotfiles
   home.file = {
     # ZSH + Starship
-    ".config/starship.toml".source = dotfiles/starship/starship.toml; 
+    ".config/starship.toml".source = dotfiles/starship/starship.toml;
     ".zprofile".source = dotfiles/zsh/.zprofile;
     ".zshrc".source = dotfiles/zsh/.zshrc;
     # Git
