@@ -4,27 +4,28 @@ Simple home-manager configuration and dotfiles.
 
 ## Packages
 
-### Package managers
+### Editor
 
-- uv
-- coursier
+ - helix
+
+### Shell
+
+- starship
+- zsh
 
 ### Utils
 
+- act
+- bat
 - direnv
 - eza
-- bat
-- act
 - git
+- keychain
+- lazygit
 
-# Shell
+### Language servers
 
-- zsh
-- starship
-
-## Terminal emulator
-
-- Alacritty
+- nil
 
 ## Instructions
 
