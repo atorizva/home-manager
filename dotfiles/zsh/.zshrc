@@ -9,5 +9,6 @@ compinit
 
 eval "$(keychain --quiet --eval atorizva_github)"
 
-eval "$(starship init zsh)"
+eval "$(direnv hook zsh)"
 
+eval "$(starship init zsh)"
