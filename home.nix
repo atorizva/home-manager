@@ -26,6 +26,7 @@
     bat
     act # Run GH actions locally, docker must be installed manually atm
     git
+    gh  # Github CLI
     lazygit
 
   ];
