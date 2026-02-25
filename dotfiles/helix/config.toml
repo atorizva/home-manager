@@ -7,6 +7,10 @@ completion-replace = true
 trim-trailing-whitespace = true
 insert-final-newline = true
 end-of-line-diagnostics = "hint"
+auto-format = true
+
+[editor.lsp]
+display-inlay-hints = true
 
 [editor.statusline]
 right = ["version-control", "position"]
