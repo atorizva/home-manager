@@ -19,6 +19,7 @@
     starship
 
     # Utils
+    croc
     keychain  # SSH keys management
     tmux
     direnv
